@@ -1,0 +1,178 @@
+{
+    "template_name": "Full Standard Due Diligence",
+    "product_template_name": "Full Standard\nDue Diligence Report",
+    "report_date": "02/15/2024",
+    "subject_name": "Jakas Jones",
+    "client_name": "Blackstone",
+    "date_of_birth": "11/1987",
+    "age": "37",
+    "current_address": "555 Beverly Drive West Hollywood, CA 90046",
+    "names": ["J Jones", "Jakas K Jones"],
+    "addresses": ["322 Rodeo Drive East Hollywood, CA 90012"],
+    "sections": {
+        "Real Estate Holdings": {
+            "table_header": "Real Estate\nHoldings",
+            "summary": "The subject is the registered owner of at least one property located in the following jurisdiction: Los Angeles County, California.",
+            "heading": "Real Estate Holdings",
+            "components": {
+                "Real Estate Ownership": {
+                    "records": [
+                        {
+                            "address": "555 Beverly Drive West Holywood, CA 90046",
+                            "assessed_value": "$750,850",
+                            "recording_date": "04/03/2013",
+                            "owners": "Davis Jones\nMary Jones",
+                            "apn": "01-53-22-985",
+                            "property_type": "Residential",
+                            "county": "Los Angeles",
+                            "jurisdiction": "Los Angeles County, California"
+                        },
+                        {
+                            "address": "555 Beverly Drive West Holywood, CA 90046",
+                            "assessed_value": "$750,850",
+                            "recording_date": "04/03/2013",
+                            "owners": "Davis Jones\nMary Jones",
+                            "apn": "01-53-22-985",
+                            "property_type": "Residential",
+                            "county": "Los Angeles",
+                            "jurisdiction": "Los Angeles County, California"
+                        }
+                    ]
+                }
+            },
+            "jurisdictions": {
+                "Federal": "NOT_APPLICABLE",
+                "Los Angeles County, California": "RECORDS",
+                "New York County, New York": "NO_RECORDS",
+                "Hartford County, Connecticut": "NO_RECORDS"
+            },
+            "footnote": null
+        },
+        "Bankruptcies & Adversary Proceedings": {
+            "table_header": "Bankruptcies",
+            "heading": "Bankruptcies & Adversary Proceedings",
+            "summary": "In 2015, the subject petitioned for Chapter 7 voluntary bankruptcy protection in the U.S. Bankruptcy Court, Central District of California.",
+            "components": {
+                "Bankruptcies & Adversary Proceedings": {
+                    "records": [
+                        {
+                            "title": "Bankrupcty Filing Number",
+                            "filing_type": "Chapter 7 Voluntary (No Asset)",
+                            "filing_number": "9:05-bk-91522",
+                            "filing_date": "10/30/2015",
+                            "status": "Closed",
+                            "court": "U.S. Bankruptcy Court - Central District of California",
+                            "petitioners": "Davis Jones",
+                            "disposition": "Discharged as Debtor - 04/10/2017",
+                            "note": null,
+                            "jurisdiction": "Federal"
+                        }
+                    ]
+                }
+            },
+            "jurisdictions": {
+                "Federal": "RECORDS",
+                "Los Angeles County, California": "NOT_APPLICABLE",
+                "New York County, New York": "NOT_APPLICABLE",
+                "Hartford County, Connecticut": "NOT_APPLICABLE",
+            },
+            "footnote": null
+        },
+        "UCC Filings": {
+            "table_header": "UCC\nFilings",
+            "heading": "UCC Filings",
+            "summary": "The subject is a debtor to one tax lien filed in 2018 for $1,535,456.23 in the following jurisdiction: Los Angeles County, California. No release or satisfaction was noted.",
+            "records": [],
+            "jurisdictions": {
+                "Federal": "NOT_APPLICABLE",
+                "Los Angeles County, California": "NO_RECORDS",
+                "New York County, New York": "NO_RECORDS",
+                "Hartford County, Connecticut": "NO_RECORDS"
+            }
+        },
+        "Tax Liens": {
+            "table_header": "Tax\nLiens",
+            "heading": "Tax Liens",
+            "summary": "The subject is a debtor to one tax lien filed in 2018 for $1,535,456.23 in the following jurisdiction: Los Angeles County, California. No release or satisfaction was noted.",
+            "components": {
+                "Lien": {
+                    "records": [
+                        {
+                            "title": "Federal Tax Lien Number",
+                            "filing_number": "0123456789",
+                            "amount": "$1,535,456.23",
+                            "filing_date": "07/07/2018",
+                            "status": "No release or satisfaction noted",
+                            "filing_location": "Los Angeles County, California",
+                            "debtors": "Davis Jones",
+                            "creditors": "Internal Revenue Service",
+                            "note": null,
+                            "jurisdiction": "Los Angeles County, California"
+                        }
+                    ]
+                }
+            },
+            "jurisdictions": {
+                "Federal": "NOT_APPLICABLE",
+                "Los Angeles County, California": "RECORDS",
+                "New York County, New York": "NO_RECORDS",
+                "Hartford County, Connecticut": "NO_RECORDS"
+            }
+        },
+        "Civil Litigation & Judgments": {
+            "table_header": "Civil\nLitigation &\nJudgments",
+            "heading": "Civil Litigation & Judgments",
+            "summary": "The subject was named as a defendant in one county-level civil suit filed in 2015 in New York County, New York. The suit pertained to matters of contract and indebtedness and resulted in a $435,000 judgment to be filed against them. This judgment has since been satisfied and released. In addition, one active federal-level civil lawsuit was located naming the subject as a plaintiff. The suit was filed in 2020 and pertains to matters of civil rights.",
+            "components": [],
+            "jurisdictions": {
+                "Federal": "NO_RECORDS",
+                "Los Angeles County, California": "NO_RECORDS",
+                "New York County, New York": "NO_RECORDS",
+                "Hartford County, Connecticut": "NO_RECORDS"
+            }
+        },
+        "Criminal History": {
+            "table_header": "Criminal\nHistory",
+            "heading": "Criminal History",
+            "summary": "A criminal record was found for the subject in California. In 2018, the subject was charged with submitting fraudulent insurance claims in the Los Angeles County Criminal Court. The subject pleaded guilty of submitting fraudulent insurance claims and was sentenced to one day in the Los Angeles County Jail, three years of formal probation, and 300 hours of community service. The case has since been disposed.",
+            "components": {
+                "County, State Criminal Case": {
+                    "records": [
+                        {
+                            "title": "County Civil Case Number",
+                            "filing_number": "0123456789",
+                            "filing_type": "Contracts",
+                            "filing_date": "01/01/2021",
+                            "status": "Active",
+                            "court_location": "Los Angeles County, California",
+                            "defendant": "Davision, William",
+                            "dob": "05/16/1990",
+                            "charges": "Charge 1 - Felony Assault",
+                            "disposition": "Charge 1 - Guilty Plea entered 01/01/2021",
+                            "sentencing": "100 Hours of Community Service",
+                            "note": null,
+                            "jurisdiction": "Los Angeles County, California"
+                        }
+                    ]
+                }
+            },
+            "jurisdictions": {
+                "Federal": "NO_RECORDS",
+                "Los Angeles County, California": "RECORDS",
+                "New York County, New York": "NO_RECORDS",
+                "Hartford County, Connecticut": "NO_RECORDS"
+            }
+        },
+        "Professional Licenses": {
+            "table_header": "Professional\nLicenses",
+            "heading": "Professional Licenses",
+            "records": [],
+            "jurisdictions": {
+                "Federal": "NO_RECORDS",
+                "Los Angeles County, California": "NO_RECORDS",
+                "New York County, New York": "NO_RECORDS",
+                "Hartford County, Connecticut": "NO_RECORDS"
+            }
+        }
+    }
+}
